@@ -68,7 +68,7 @@ Esse algoritmo, apesar de simples, leva a padrões altamente não triviais após
 
 Aqui está a animação , mostrando milhares de passos e a formação da famosa "estrada" (highway) da formiga:
 
-![Formiga de Langton - GIF ](src/gif/formiga_langton_longo.gif)
+![Formiga de Langton - GIF ](/formiga_langton_longo.gif)
 
 > **Dica:** para ver a simulação completa, você também pode executar o script Python que gera o GIF.
 
@@ -102,3 +102,4 @@ python src/formiga_langton.py
 ---
 
 ✨ Desenvolvido por Matheus Pereira Lucizano graduado em Analise e Desenvolvimento de Sistemas, e entusiasta de algoritmos, otimização e simulações computacionais.
+
