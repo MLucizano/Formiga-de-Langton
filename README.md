@@ -57,8 +57,8 @@ O mundo não tem tamanho fixo:
 
 ### 6. **Lógica Algorítmica (Formiga de Langton)**
 A regra segue o modelo clássico:
-- Se a célula atual for **preta** → vira **à direita** e pinta de branco.  
-- Se a célula atual for **branca** → vira **à esquerda** e pinta de preto.  
+- Se a célula atual for **preta** → vira **à esquerda** e pinta de branco.  
+- Se a célula atual for **branca** → vira **à direita** e pinta de preto.  
 - Move-se uma unidade na direção atual.  
 
 Esse algoritmo, apesar de simples, leva a padrões altamente não triviais após milhares de iterações — incluindo o surgimento de um “highway” (estrada infinita).
@@ -102,4 +102,5 @@ python src/formiga_langton.py
 ---
 
 ✨ Desenvolvido por Matheus Pereira Lucizano graduado em Analise e Desenvolvimento de Sistemas, e entusiasta de algoritmos, otimização e simulações computacionais.
+
 
