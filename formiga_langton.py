@@ -40,10 +40,10 @@ class Formiga:
         self.mundo.crescer_mundo(self)
         self.direcao = self.direcao % 4  # Garante que a direção esteja entre 0 e 3
         if self.mundo.grid[self.posicao[0] + self.mundo.meio, self.posicao[1] + self.mundo.meio]: # verifica se a posição é preta ou branca
-            self.vira_dir()
+            self.vira_esq()
 
         else: # verifica se a posição é preta ou branca 
-            self.vira_esq()
+            self.vira_dir()
             
         deslocamento_x, deslocamento_y = self.andar(self.direcoes[self.direcao]) # Formula para atualizar a posição da formiga  
         self.posicao = self.posicao[0] + deslocamento_x , self.posicao[1] + deslocamento_y # Posicao formiga += vetor de onde ela vai andar
@@ -140,4 +140,5 @@ for passo in range(movimentos):
     novo_mundo.exibir_mundo(formiga= formiga1)
 
 plt.ioff() # Desativa o modo interativo do matplotlib
+
 plt.show() # Exibe o gráfico final
